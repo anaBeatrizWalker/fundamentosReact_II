@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Primeiro from './componentes/Primeiro'
+import { CompA, CompB as B } from './componentes/DoisComponentes'
  
 ReactDOM.render(
-    <Primeiro 
-        title="Primeiro Componente (com propriedade)"   value={8**2}/>
+    <div>
+        <CompA value='Olá eu sou A!'/>
+        <B value='E eu sou o B'/>
+    </div>
     , document.getElementById('root')
 )
