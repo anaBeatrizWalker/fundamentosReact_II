@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import Primeiro from './componentes/Primeiro'
  
 ReactDOM.render(
-    <Primeiro/>
+    <Primeiro 
+        title="Primeiro Componente (com propriedade)"   value={8**2}/>
     , document.getElementById('root')
 )
