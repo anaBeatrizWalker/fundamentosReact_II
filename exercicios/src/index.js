@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import MultiElementos from './MultiElementos'
+import FamiliaWalker from './componentes/FamiliaWalker'
  
 ReactDOM.render(
     <div>
-        <MultiElementos/>
+        <FamiliaWalker/>
     </div>
     , document.getElementById('root')
 )
