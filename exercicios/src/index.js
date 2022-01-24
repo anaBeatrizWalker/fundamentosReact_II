@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import CompClasse from './componentes/CompClasse'
+import Contador from './componentes/Contador'
 
  
 ReactDOM.render(
     <div>
-        <CompClasse value='Valor por propriedade'/>
+        <Contador numero={0}/>
     </div>
     , document.getElementById('root')
 )
