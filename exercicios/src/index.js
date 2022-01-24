@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Pai from './componentes/Pai'
+import CompClasse from './componentes/CompClasse'
 
  
 ReactDOM.render(
     <div>
-        <Pai/>
+        <CompClasse value='Valor por propriedade'/>
     </div>
     , document.getElementById('root')
 )
